@@ -1,0 +1,7 @@
+.bgHeader1{
+    background-image: url("/public/assets/images/home-bg-2.jpg");
+    background-size: cover;
+    width:105vw;
+    height:100vh;
+    overflow: hidden;
+}

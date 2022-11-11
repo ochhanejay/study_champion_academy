@@ -1,0 +1,27 @@
+.youtubeHome{
+    background-color: aliceblue;
+}
+.youtube-width {
+   
+    margin: 30px auto 30px auto; /* AUTO CENTERS THE VIDEO + TOP/BOTTOM MARGINS */
+    }
+    
+    .youtube-container {
+    padding-top: 0px;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    }
+    
+    .youtube-container iframe,
+    .youtube-container object,
+    .youtube-container embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    }

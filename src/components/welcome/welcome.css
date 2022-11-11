@@ -1,0 +1,10 @@
+.welcome{
+    padding: 6rem;
+    justify-content: left !important;
+    align-items: flex-start !important;
+    text-align: start;
+    background-color: aliceblue;
+}
+.welcome p{
+font-size: 1.1rem;
+}

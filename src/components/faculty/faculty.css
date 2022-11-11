@@ -1,0 +1,10 @@
+.single_card_carousel {
+    padding: 45px 32px;
+    background-color: #Ffff;
+    height: 270px;
+}
+
+img.img-fluid.profile_img {
+    width: 74px;
+    height: 74px;
+}

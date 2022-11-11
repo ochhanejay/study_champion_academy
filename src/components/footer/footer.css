@@ -1,0 +1,7 @@
+.courseFooter p a{
+    text-decoration: none;
+    color: white;
+}
+.bgFooter{
+    background-image: linear-gradient(#000000,#E84393) !important;
+}
