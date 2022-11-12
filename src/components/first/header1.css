@@ -1,7 +1,16 @@
 .bgHeader1{
-    background-image: url("/public/assets/images/home-bg-2.jpg");
+    background-image: url("/public/assets/images/head.jpg");
     background-size: cover;
     width:105vw;
     height:100vh;
     overflow: hidden;
 }
+@media screen and (max-width: 480px) {
+    .bgHeader1{
+        background-image: url("/public/assets/images/home-bg-1.jpg");
+        background-size: cover;
+        width:105vw;
+        height:100vh;
+        overflow: hidden;
+    }
+  }

@@ -1,6 +1,5 @@
 import React, { Component ,useEffect,useState,useRef} from 'react';
 import "./header1.css";
-import Typist from "react-typist";
 
 const Typewriter=  ({text})  =>{
     const index =useRef(0);
@@ -13,6 +12,6 @@ const Typewriter=  ({text})  =>{
     
 }, [currentText])
 
-  return <h1 style={{width:"30rem",fontSize:"5rem",color:"white",textAlign:"start",marginTop:"10rem"}}>{currentText}</h1>
+  return <h1 className='font-effect-fire' style={{width:"30rem",fontSize:"5rem",color:"black",textAlign:"start",marginTop:"10rem",lineHeight:"8rem"}}>{currentText}</h1>
 }
 export default Typewriter;
