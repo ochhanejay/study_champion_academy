@@ -1,10 +1,16 @@
+.youtube{
+    width: 20rem;
+    margin-left: -5rem;
+}
 .youtubeHome{
     background-color: aliceblue;
+    overflow-x: hidden !important;
+  overflow: hidden !important; 
+  /* overflow-y: hidden !important; */
 }
-.youtube-width {
-   
-    margin: 30px auto 30px auto; /* AUTO CENTERS THE VIDEO + TOP/BOTTOM MARGINS */
-    }
+.youImage{
+    width: 50rem;
+}
     
     .youtube-container {
     padding-top: 0px;
@@ -25,3 +31,12 @@
     left: 0;
     z-index: 101;
     }
+    @media screen and (max-width: 480px) {
+        .youImage{
+            display: none;
+        }
+        .youtube{
+            width: 20rem;
+            margin-left: 0rem;
+        } 
+      }

@@ -1,16 +1,27 @@
 .bgHeader1{
-    background-image: url("/public/assets/images/head.jpg");
-    background-size: cover;
-    width:105vw;
+    background-image: url("/public/assets/images/home-bg-2.jpg");
+    background-size:100% 100%;
+    box-sizing: border-box;
+    /* width:105vw; */
     height:100vh;
-    overflow: hidden;
+    overflow-x: hidden !important;
+    padding-left: 5rem;
+}
+.headFont{
+    margin-top: 10rem;
 }
 @media screen and (max-width: 480px) {
     .bgHeader1{
-        background-image: url("/public/assets/images/home-bg-1.jpg");
-        background-size: cover;
-        width:105vw;
-        height:100vh;
-        overflow: hidden;
+        background-image: url("/public/assets/images/home-bg-2.jpg");
+        background-size:95% 95%;
+    /* width:105vw; */
+    height:80vh;
+    overflow: hidden;
+        padding: 0rem;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .headFont{
+        margin-top: 1rem;
     }
   }

@@ -34,15 +34,19 @@ const Course = () => {
     }]);
     
    
-    return ( <div className='bgCourse row'>
-    <div className='' style={{marginTop:"8rem"}}>
+    return ( 
+        
+        <div className='bgCourse'>
+        <div className='row'>
+    <div className='col-12' style={{marginTop:"8rem"}}>
     <h2 className='pt-5 mt5 text-danger'>COURSES</h2>
     </div>
     
-    <div class="course_container container">
+    <div class="col-12 p-5">
+    <div className='row'>
    
 {
-    courses.map(course=><div class="card puff-in-center">
+    courses.map(course=><div class="col-lg-3 col-sm-12 card puff-in-center mb-4 ">
     <div class="face face1">
       <div class="content">
         <span class="stars"></span>
@@ -55,9 +59,11 @@ const Course = () => {
     </div>
   </div>)
 }
-    
+</div>   
   </div>
-        </div> );
+        </div>
+        </div>
+         );
 }
  
 export default Course;

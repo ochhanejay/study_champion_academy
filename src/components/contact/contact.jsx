@@ -44,7 +44,8 @@ const [snack, setSnack] = React.useState({
   return (
   <div class="row contactUs" >
  <div className="row" style={{marginTop:"8rem"}}>
- <h2 className="text-danger">Get   In   Touch</h2>
+ <h5 class="text-uppercase" style={{color:"orangered"}}>Contact Us</h5>
+            <h1 class="display-3 text-uppercase mb-0">Get In Touch</h1>
  <div className="col-lg-5 col-sm-6 mt-5 mobileHide">
  <img src="assets/images/conta.jpg" style={{width:"40rem"}}></img>
  </div>

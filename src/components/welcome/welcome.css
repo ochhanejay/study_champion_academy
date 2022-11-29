@@ -8,3 +8,12 @@
 .welcome p{
 font-size: 1.1rem;
 }
+@media screen and (max-width: 480px) {
+    .welcome{
+        padding: 1.5rem;
+        justify-content: left !important;
+        align-items: flex-start !important;
+        text-align: start;
+        background-color: aliceblue;
+    }
+  }

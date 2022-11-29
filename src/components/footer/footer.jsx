@@ -71,15 +71,15 @@ export default function Footer() {
             <MDBCol md='4' lg='3' xl='4' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <MDBIcon color='secondary' icon='home' className='me-2'  />
+                <MDBIcon color='primary' icon='home' className='me-2'  />
                 110, Sundaram Complex, Bhawarkua Main Rd, Transport Nagar, Indore, Madhya Pradesh 452001
               </p>
               <p>
-                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                <MDBIcon color='primary' icon='envelope' className='me-3' />
                 studychampionacademy@gmail.com
               </p>
               <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> +91 94244 24437
+                <MDBIcon color='primary' icon='phone' className='me-3' /> +91 94244 24437
               </p>
               
             </MDBCol>

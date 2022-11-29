@@ -1,5 +1,18 @@
+.navLink.active {
+    color: var(--primary);
+    border-bottom:1px solid red !important;
+}
 .navLink:hover{
     border-bottom:1px solid red !important;
+}
+.navPad{
+    padding-top: -10 !important;
+    background-color: none;
+}
+.navPosition{
+    position: absolute;
+    width: 100%;
+    
 }
 .navFont{
     color: black !important;
@@ -18,7 +31,25 @@
     }
     .navMargin{
         position: absolute;
-        right: 3rem;
+        right: 0rem;
         top: 2rem;
+    }
+    .navPosition{
+        position: sticky;
+        top:2rem !important;
+        bottom:-10rem !important;
+        margin-bottom: 0rem !important;
+    }
+    .navPad{
+        height: 3rem !important;
+        padding-top: -10 !important;
+        padding-bottom: -10 !important;
+        background-color: black;
+        text-align: center !important;
+        
+    }
+    .navB{
+        margin-top: -0.5rem !important;
+        margin-bottom: -1rem !important;
     }
   }

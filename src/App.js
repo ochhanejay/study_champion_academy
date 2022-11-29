@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
 import Navbar from './components/navbar/navbar';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle"
@@ -12,11 +13,14 @@ import Footer from './components/footer/footer';
 import Welcome from './components/welcome/welcome';
 import YouHome from './components/youtube/youtubeHome';
 import WhyStudy from './components/about_us/whyStudy';
+import Navnew from './components/navbar/nav2';
+import AboutStudy from './components/about_us/aboutStudy';
 
 function App() {
   return (
     <div className="App backGround">
-     <Navbar></Navbar>
+  
+     <Navnew></Navnew>
      
      <Routes>
      <Route path='/' element={

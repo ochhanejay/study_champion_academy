@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return ( <div classNameName=''style={{position:"absolute",width:"100%",overflowX:"hidden"}} >
     <nav className="navbar navbar-expand-lg bg-transparent text-danger">
-    <div className="container-fluid" style={{justifyContent:"space-between",alignItems:"space-between"}}>
+    <div className="container-fluid">
     <Link to="/" className="navbar-brand"><img style={{width:"15rem",height:"8rem",zIndex:"1"}} src='assets/images/logo.png'></img></Link>
       <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon text-white"></span>

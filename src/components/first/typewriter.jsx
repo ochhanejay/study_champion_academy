@@ -12,6 +12,6 @@ const Typewriter=  ({text})  =>{
     
 }, [currentText])
 
-  return <h1 className='font-effect-fire' style={{width:"30rem",fontSize:"5rem",color:"black",textAlign:"start",marginTop:"10rem",lineHeight:"8rem"}}>{currentText}</h1>
+  return <h1 className='font-effect-fire headFont' style={{width:"25rem",fontSize:"4.7rem",color:"red",textAlign:"start",lineHeight:"8rem"}}>{currentText}</h1>
 }
 export default Typewriter;

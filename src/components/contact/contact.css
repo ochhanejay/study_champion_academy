@@ -1,8 +1,9 @@
 .contactUs{
-  
+  overflow-x: hidden !important;
 }
 .contact{
     border-radius: 1rem;
+    
     
 }
 .contactField{

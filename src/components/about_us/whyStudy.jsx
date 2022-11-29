@@ -13,6 +13,7 @@ import VideocamIcon from '@mui/icons-material/Videocam';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
 import WifiIcon from '@mui/icons-material/Wifi';
 import SmsIcon from '@mui/icons-material/Sms';
+import AboutStudy from './aboutStudy';
 
 
 const WhyStudy = () => {
@@ -37,17 +38,18 @@ const WhyStudy = () => {
         ]
         
     )
-    return ( <div className='row '>
+    return ( <div className='row 'style={{overflowX:"hidden"}}>
     
     <div className='col-12' style={{marginTop:"9rem"}}>
     <img src='assets/images/about-post.jpg' style={{width:"80%",height:"20rem"}}></img>
     <div className='row'>
-    <div className='col-lg-6 col-sm-12 mt-5'>
-    
-    <h2 className='text-black' >WHY STUDY CHAMPION ACADEMY
+    <div className='col-lg-12 col-sm-12 mt-5'>
+    <AboutStudy></AboutStudy>
+    <h2 hidden className='text-black' >ABOUT STUDY CHAMPION ACADEMY
     </h2>
-    <div style={{backgroundColor:"red",height:"0.2rem",width:"7rem",marginLeft:"7rem"}}></div>
-    <div className='row ms-4 mt-5'>
+    <div hidden style={{backgroundColor:"red",height:"0.2rem",width:"7rem",marginLeft:"6rem"}}></div>
+    
+    <div hidden className='row ms-4 mt-5'>
     {why.map(wh=><>
         <div className='text-danger col-1 '>{wh[1]}</div>
         <div className='col-11 ' style={{fontSize:"1.1rem",fontWeight:"bold",textAlign:"start"}}>{wh[0]}</div>
@@ -55,7 +57,7 @@ const WhyStudy = () => {
  
     </div>
     </div>
-    <div className='col-6 mobileHide' style={{marginTop:"10rem"}}>
+    <div hidden className='col-6 mobileHide' style={{marginTop:"10rem"}}>
     <img src='assets/images/success.jpg' style={{width:"80%",height:"40rem"}}></img>
     </div>
     </div>
