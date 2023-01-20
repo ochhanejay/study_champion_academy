@@ -9,7 +9,7 @@ import "./footer.css"
 
 export default function Footer() {
   return (
-    <MDBFooter className='text-center text-lg-start text-muted bgFooter pt-2'>
+    <MDBFooter className='text-center text-lg-start text-muted bgFooter pt-2 mt-5'>
       
 
       <section className=''>

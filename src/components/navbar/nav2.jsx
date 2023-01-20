@@ -1,6 +1,6 @@
 import React from 'react'
 import "./navbar.css";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 export default function Navnew() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Navnew() {
             <div class="col-lg-7 offset-lg-2 ">
                 
                 <nav class="navPad navbar navbar-expand-lg bg-lg-transparent navbar-dark ps-3 pe-3 pb-0 h-100 p-lg-0 px-lg-5">
-                <Link to="/" className="navbar-brand d-lg-none d-block navB"><img className='navB' style={{width:"15rem",height:"8rem"}} src='assets/images/logo.png'></img></Link>
+                <NavLink to="/" className="navbar-brand d-lg-none d-block navB"><img className='navB' style={{width:"15rem",height:"8rem"}} src='assets/images/logo.png'></img></NavLink>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -22,19 +22,19 @@ export default function Navnew() {
                         <div class="navbar-nav mr-auto py-0">
                         <ul className="navbar-nav  me-auto mb-2 mb-lg-0 font-effect-neon">
           <li className="nav-item">
-          <Link className="nav-link me-5  navLink navFont" to="/">Home</Link>
+          <NavLink className="nav-link me-5  navLink navFont" to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-          <Link className="nav-link me-5 navLink navFont" to="/contact">Contact Us</Link>
+          <NavLink className="nav-link me-5 navLink navFont" to="/contact">Contact Us</NavLink>
           </li>
           <li className="nav-item">
-          <Link className="nav-link me-5 navLink navFont" to="/whyStudy">About Us</Link>
+          <NavLink className="nav-link me-5 navLink navFont" to="/whyStudy">About Us</NavLink>
           </li>
           <li className="nav-item">
-          <Link className="nav-link me-5  navLink navFont" to="/faculty">Faculty</Link>
+          <NavLink className="nav-link me-5  navLink navFont" to="/faculty">Faculty</NavLink>
           </li>
           <li className="nav-item">
-          <Link className="nav-link me-5  navLink navFont" to="/courses">Courses</Link>
+          <NavLink className="nav-link me-5  navLink navFont" to="/courses">Courses</NavLink>
           </li>
           
         </ul>

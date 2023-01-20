@@ -1,19 +1,18 @@
-import YouTube from '@mui/icons-material/YouTube';
-import React, { Component } from 'react';
-import "./youtubeHome.css"
-const YouHome = () => {
-    return (
-        <div className='row youtubeHome'>
+import React from 'react'
+
+const Patwari = () => {
+  return (
+    <div className='row youtubeHome'>
         <div className='col-12 mb-4'>
         <div className='row'>
-            <h1 className=' font-effect-neon text-dark col-lg-4 mt-5 offset-lg-2'>Connect Us With</h1>
-            <a href='https://www.youtube.com/c/StudyChampionAcademy' className='text-reset col-lg-1'>
-            <img href="" className='youtube d-inline' src='assets/images/youtube.png'></img>
-          </a>
+        <center>
+            <h1 className=' font-effect-neon text-dark col-lg-12 mt-5 '>अबकी बार पटवारी पार</h1>
+            </center>
+            
           </div> 
         </div>
         <div className='col-12'>
-        <img src='assets/images/All.jpg' style={{width:"90%",height:"80%"}}></img>
+        <img src='assets/images/patwari.jpeg' style={{width:"90%",height:"80%"}}></img>
         </div>
        { 
         // <div className='col-lg-6'>
@@ -28,7 +27,7 @@ const YouHome = () => {
         // </div>
     }
     </div>
-    );
+  )
 }
 
-export default YouHome;
+export default Patwari;

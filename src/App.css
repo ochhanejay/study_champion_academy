@@ -39,4 +39,11 @@
     transform: rotate(360deg);
   }
 }
-
+.testImage{
+  height: 40rem;
+}
+@media screen and (max-width: 480px) {
+  .testImage{
+    height: 60%;
+  }
+}

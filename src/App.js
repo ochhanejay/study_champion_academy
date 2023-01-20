@@ -15,6 +15,9 @@ import YouHome from './components/youtube/youtubeHome';
 import WhyStudy from './components/about_us/whyStudy';
 import Navnew from './components/navbar/nav2';
 import AboutStudy from './components/about_us/aboutStudy';
+import Patwari from './components/patwari';
+import { Telegram } from '@mui/icons-material';
+import TestSeries from './components/testSeries';
 
 function App() {
   return (
@@ -28,6 +31,8 @@ function App() {
       <Head></Head>
       <Welcome></Welcome>
       <YouHome></YouHome>
+      <Patwari></Patwari>
+      <TestSeries></TestSeries>
       <Faculty></Faculty>
       <Course></Course>
       <Contact></Contact>
