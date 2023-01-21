@@ -30,9 +30,9 @@ function App() {
       <>
       <Head></Head>
       <Welcome></Welcome>
-      <YouHome></YouHome>
       <Patwari></Patwari>
       <TestSeries></TestSeries>
+      <YouHome></YouHome>
       <Faculty></Faculty>
       <Course></Course>
       <Contact></Contact>
@@ -40,6 +40,7 @@ function App() {
       </>
       }></Route>
      <Route path='/whyStudy' element={<WhyStudy></WhyStudy>}></Route>
+     <Route path='/testSeries' element={<TestSeries></TestSeries>}></Route>
      <Route path='/courses' element={<Course></Course>}></Route>
      <Route path='/contact' element={<Contact></Contact>}></Route>
      <Route path='/header1' element={<Head></Head>}></Route>

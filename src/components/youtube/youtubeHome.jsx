@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import "./youtubeHome.css"
 const YouHome = () => {
     return (
-        <div className='row youtubeHome'>
+        <div className='row youtubeHome '>
         <div className='col-12 mb-4'>
         <div className='row'>
             <h1 className=' font-effect-neon text-dark col-lg-4 mt-5 offset-lg-2'>Connect Us With</h1>

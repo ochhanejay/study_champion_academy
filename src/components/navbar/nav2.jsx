@@ -11,7 +11,7 @@ export default function Navnew() {
                 <img style={{width:"15rem",height:"8rem",zIndex:"1"}} src='assets/images/logo.png'></img>
                 </a>
             </div>
-            <div class="col-lg-7 offset-lg-2 ">
+            <div class="col-lg-8 offset-lg-1 ">
                 
                 <nav class="navPad navbar navbar-expand-lg bg-lg-transparent navbar-dark ps-3 pe-3 pb-0 h-100 p-lg-0 px-lg-5">
                 <NavLink to="/" className="navbar-brand d-lg-none d-block navB"><img className='navB' style={{width:"15rem",height:"8rem"}} src='assets/images/logo.png'></img></NavLink>
@@ -23,6 +23,9 @@ export default function Navnew() {
                         <ul className="navbar-nav  me-auto mb-2 mb-lg-0 font-effect-neon">
           <li className="nav-item">
           <NavLink className="nav-link me-5  navLink navFont" to="/">Home</NavLink>
+          </li>
+          <li className="nav-item">
+          <NavLink className="nav-link me-5 navLink navFont" to="/testSeries">Test Series</NavLink>
           </li>
           <li className="nav-item">
           <NavLink className="nav-link me-5 navLink navFont" to="/contact">Contact Us</NavLink>
